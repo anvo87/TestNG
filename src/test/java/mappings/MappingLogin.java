@@ -4,6 +4,9 @@ import com.opencsv.bean.CsvBindByName;
 
 public class MappingLogin {
 
+
+    
+
     @CsvBindByName(column = "userName")
     private String userName;
     @CsvBindByName(column = "passWord")
